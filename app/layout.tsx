@@ -2,24 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Azaion',
-  description: 'Transforming UAV Operations with AI',
-  generator: 'NextJS',
-  icons: {
-    icon: [
-      {
-        url: '/logos/logo.svg',
-        type: 'image/svg+xml',
-      }
-    ],
-    shortcut: ['/logos/logo.svg'],
-    apple: [
-      {
-        url: '/logos/logo.svg',
-        type: 'image/svg+xml',
-      }
-    ],
-  }
+  title: 'v0 App',
+  description: 'Created with v0',
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
